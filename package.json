@@ -9,5 +9,11 @@
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Florian Müller",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^5.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.4",
+    "socket.io": "^2.3.0"
+  }
 }
