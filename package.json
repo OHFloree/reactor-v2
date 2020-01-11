@@ -7,10 +7,6 @@
     "start": "cd server && nodemon index.js",
     "client": "cd client && npm start"
   },
-  "repository": {
-  "type": "git",
-  "url": "git+https://github.com/OHFloree/react-mastermind.git"
-  },
   "author": "Florian Müller",
   "license": "ISC",
   "dependencies": {
