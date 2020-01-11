@@ -6,7 +6,6 @@
   "scripts": {
     "server": "cd server && nodemon index.js",
     "client": "cd client && npm start",
-    "build": "cd client && npm run build",
     "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Florian Müller",
