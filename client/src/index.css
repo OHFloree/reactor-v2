@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #263238;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  background-image: linear-gradient(to top, #1e88e5, #4dd0e1);
+}
+
+a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
