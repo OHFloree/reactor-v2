@@ -16,7 +16,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      socket: io.connect('localhost:8080')
+      socket: io.connect('https://reactor-game.herokuapp.com')
     }
   }
 
