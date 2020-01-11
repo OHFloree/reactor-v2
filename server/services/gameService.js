@@ -45,6 +45,7 @@ class GameService {
       let i = room.players.indexOf(player)
       if(i > -1) {
         room.players.splice(i,1)
+        await destroy(room.id)
         return room.id
       }
       else {
