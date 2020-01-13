@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 function Button(props) {
   let {icon,children, onClick, justify} = props
-  if(icon !=undefined) {
+  if(icon) {
     return <Button_ justify={justify} onClick={onClick}>{children}</Button_>
   }
   else {

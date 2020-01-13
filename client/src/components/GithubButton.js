@@ -30,6 +30,9 @@ const Container = styled.div`
   left: 0;
   width: ${calcLength(150)}px;
   height: ${calcLength(150)}px;
+  @media (max-width: 550px) {
+    display: none;
+  }
 `
 
 const InnerContainer = styled.div`
